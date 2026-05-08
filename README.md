@@ -30,22 +30,3 @@
 | 🎌 ANIME | 50+ | Anime characters |
 | 📦 OTHER | 30+ | Animal facts, Profile |
 
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js 18+ 
-- WhatsApp account
-- Pair code (no QR needed!)
-
-### Installation
-
-```bash
-# Clone repository
-git clone https://github.com/netgrip/netgrip-md-bot.git
-cd netgrip-md-bot
-
-# Install dependencies
-npm install
-
-# Start bot
-npm start
