@@ -1,0 +1,29 @@
+{
+  "name": "netgrip-md-bot",
+  "version": "3.0.0",
+  "description": "Netgrip MD WhatsApp Bot - Complete WhatsApp Bot with 200+ Commands",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "render-start": "node index.js",
+    "generate": "node generate-all-commands.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "@google/generative-ai": "^0.1.0",
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.0",
+    "express": "^4.18.2",
+    "google-translate-api-x": "^10.6.0",
+    "mathjs": "^11.8.0",
+    "moment-timezone": "^0.5.43",
+    "node-fetch": "^2.7.0",
+    "node-gtts": "^2.0.2",
+    "pino": "^8.15.0",
+    "qrcode": "^1.5.3",
+    "sharp": "^0.32.5",
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^4.11.5"
+  }
+}

@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: netgrip-md-bot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: BOT_NAME
+        value: Netgrip MD
+      - key: OWNER_NUMBER
+        value: 263716492962
+      - key: PREFIX
+        value: .
+      - key: MODE
+        value: public
+      - key: PORT
+        value: 3000
+    autoDeploy: true
+    healthCheckPath: /health
